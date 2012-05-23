@@ -1,14 +1,61 @@
-body {
-  background-color : #0090ff;
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
 }
-
-.title {
-  color : white;
-  font-family : sans-serif;
-  font-size : 1000px;
-  line-height : 850px;
-  padding : 0;
-  margin : 0;
-
-  text-shadow : -1px 1px #333, -2px 2px #333, -3px 3px #333, -4px 4px #333, -5px 5px #333, -6px 6px #333, -7px 7px #333, -8px 8px #333, -9px 9px #333, -10px 10px #333, -11px 11px #333, -12px 12px #333, -13px 13px #333, -14px 14px #333, -15px 15px #333, -16px 16px #333, -17px 17px #333, -18px 18px #333, -19px 19px #333, -20px 20px #333, -21px 21px #333, -22px 22px #333, -23px 23px #333, -24px 24px #333, -25px 25px #333, -26px 26px #333, -27px 27px #333, -28px 28px #333, -29px 29px #333, -30px 30px #333, -31px 31px #333, -32px 32px #333, -33px 33px #333, -34px 34px #333, -35px 35px #333, -36px 36px #333, -37px 37px #333, -38px 38px #333, -39px 39px #333, -40px 40px #333, -41px 41px #333, -42px 42px #333, -43px 43px #333, -44px 44px #333, -45px 45px #333, -46px 46px #333, -47px 47px #333, -48px 48px #333, -49px 49px #333, -50px 50px #333;
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  zoom: 1;
+}
+body {
+  background-color: #0090ff;
+  font-family: sans-serif;
+  position: relative;
+}
+.main {
+  width: 900px;
+  margin: 100px auto 0;
+}
+.monogram {
+  width: 600px;
+  float: left;
+}
+.letter {
+  color: white;
+  font-family: sans-serif;
+  font-size: 850px;
+  font-weight: bold;
+  line-height: 635px;
+  padding: 0;
+  margin: 0;
+  text-shadow: -1px 1px #333333, -2px 2px #333333, -3px 3px #333333, -4px 4px #333333, -5px 5px #333333, -6px 6px #333333, -7px 7px #333333, -8px 8px #333333, -9px 9px #333333, -10px 10px #333333, -11px 11px #333333, -12px 12px #333333, -13px 13px #333333, -14px 14px #333333, -15px 15px #333333, -16px 16px #333333, -17px 17px #333333, -18px 18px #333333, -19px 19px #333333, -20px 20px #333333, -21px 21px #333333, -22px 22px #333333, -23px 23px #333333, -24px 24px #333333, -25px 25px #333333, -26px 26px #333333, -27px 27px #333333, -28px 28px #333333, -29px 29px #333333, -30px 30px #333333, -31px 31px #333333, -32px 32px #333333, -33px 33px #333333, -34px 34px #333333, -35px 35px #333333, -36px 36px #333333, -37px 37px #333333, -38px 38px #333333, -39px 39px #333333, -40px 40px #333333, -41px 41px #333333, -42px 42px #333333, -43px 43px #333333, -44px 44px #333333, -45px 45px #333333, -46px 46px #333333, -47px 47px #333333, -48px 48px #333333, -49px 49px #333333, -50px 50px #333333;
+}
+.links {
+  font-size: 24px;
+  width: 300px;
+  float: right;
+}
+.link {
+  padding: 30px;
+}
+.link a {
+  color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  -khtml-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.link a:hover {
+  color: #00e;
+  -webkit-transition: all 0.25s ease-in-out;
+  -khtml-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
 }

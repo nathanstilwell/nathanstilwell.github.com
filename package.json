@@ -4,7 +4,5 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-connect": "~0.2.0"
   }
 }

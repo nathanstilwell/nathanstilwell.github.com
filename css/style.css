@@ -1,30 +1,157 @@
+/**
+ * Utils
+ */
 
 .full-screen {
   height: 100vh;
+  width: 100vw;
 }
 
+.inconsolata {
+  font-family: 'Inconsolata', sans-serif;
+}
+
+/**
+ *
+ *    Giant background image
+ *
+ */
+
+.background-image {
+  display: none;
+}
+
+@media only screen and (min-width: 48rem) {
+  .background-image {
+    background: transparent url(/img/nathan_5.png) no-repeat bottom right;
+    display: block;
+  }
+}
+@media only screen and (min-width: 80rem) {
+  .background-image {
+    background: transparent url(/img/nathan_3.png) no-repeat bottom right;
+    display: block;
+  }
+}
+
+/**
+ *
+ *    Avatar Image
+ *
+ */
+
+.avatar {
+  border-radius: 100px;
+  line-height: 0.5;
+  max-width: 200px;
+}
+
+@media only screen and (min-width: 48rem) {
+  .avatar { display: none }
+}
+
+/**
+ *
+ *    Responsive Title
+ *
+ */
+
 .title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 @media only screen and (min-width : 30rem) {
-  .title { font-size: 3rem }
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
 @media only screen and (min-width: 48rem) {
-  .title { font-size: 4.8rem }
+  .title {
+    font-size: 3rem;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 60rem) {
-  .title { font-size: 6rem }
+  .title {
+    font-size: 4.8rem;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 80rem) {
-  .title { font-size: 8rem }
+  .title {
+    font-size: 6rem;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 100rem) {
-  .title { font-size: 10rem }
+  .title {
+    font-size: 8rem;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 120rem) {
-  .title { font-size: 15rem }
+  .title {
+    font-size: 10rem;
+    text-align: left;
+  }
 }
 @media only screen and (min-width: 150rem) {
-  .title { font-size: 18rem }
+  .title {
+    font-size: 12rem;
+    text-align: left;
+  }
+}
+
+/**
+ *
+ *  Responsive Description
+ *
+ */
+
+.description {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 48rem) {
+  .description { font-size: 1.5rem }
+}
+@media only screen and (min-width: 100rem) {
+  .description { font-size: 2rem }
+}
+/**
+ *
+ * Icons for the socials
+ *
+ */
+
+.social-link {
+  line-height: 1.5rem;
+}
+
+.logo {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.codepen .outer-ring {
+  fill: black;
+}
+.codepen .inner-box {
+  fill: black;
+}
+
+/**
+ *
+ * Bonus for phones
+ *
+ */
+
+.bonus {
+  line-height: 0.5;
+}
+
+@media only screen and (min-width: 48rem) {
+  .bonus { display: none }
 }

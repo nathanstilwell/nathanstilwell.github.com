@@ -1,0 +1,24 @@
+.main {
+  max-width: 60rem;
+}
+
+.avatar {
+  display: none;
+  line-height: 0.5;
+}
+
+@media only screen and (min-width: 40rem) {
+  .avatar {
+    display: block;
+  }
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.icon-small {
+  height: 1.5rem;
+  width: 1.5rem;
+}

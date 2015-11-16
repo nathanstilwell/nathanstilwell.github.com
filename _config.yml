@@ -1,0 +1,13 @@
+# Site settings
+title: The Nathan Stilwell Show
+email: nathanstilwell@gmail.com
+url: "http://nathanstilwell.com"
+twitter_username: nathanstilwell
+github_username: nathanstilwell
+
+# Server
+baseurl: ""
+port: 5555
+
+# Build settings
+markdown: kramdown

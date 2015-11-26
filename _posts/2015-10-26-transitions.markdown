@@ -2,6 +2,7 @@
 published: true
 title: Transitions
 layout: post
+editorialKey: bird-cage
 ---
 Life is full of chapters and mine is no different.
 
@@ -21,3 +22,5 @@ I recently heard the wise words of Carl Sagan, and they felt relevant. They are,
 > Our planet and our solar system are surrounded by a New World ocean: the depths of space. It is no more impassable than the last.
 
 Whatever your next step in life, you have achieved something. And your next achievement is just as possible as the last.
+
+![Fly on little wing](/postassets/bird-cage/medium.jpg)

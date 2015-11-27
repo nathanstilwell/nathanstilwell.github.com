@@ -1,0 +1,8 @@
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+}
+
+.inconsolata {
+  font-family: 'Inconsolata', sans-serif;
+}

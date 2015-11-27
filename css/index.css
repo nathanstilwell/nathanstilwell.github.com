@@ -1,15 +1,6 @@
-/**
- * Utils
- */
-
-.full-screen {
-  height: 100vh;
-  width: 100vw;
-}
-
-.inconsolata {
-  font-family: 'Inconsolata', sans-serif;
-}
+@import "vendor/normalize.css";
+@import "vendor/basscss.min.css";
+@import "src/utils.css";
 
 /**
  *
@@ -19,16 +10,13 @@
 
 .background-image {
   display: none;
-}
 
-@media only screen and (min-width: 48rem) {
-  .background-image {
+  @media only screen and (min-width: 48rem) {
     background: transparent url(/img/nathan_5.png) no-repeat bottom right;
     display: block;
   }
-}
-@media only screen and (min-width: 80rem) {
-  .background-image {
+
+  @media only screen and (min-width: 80rem) {
     background: transparent url(/img/nathan_3.png) no-repeat bottom right;
     display: block;
   }

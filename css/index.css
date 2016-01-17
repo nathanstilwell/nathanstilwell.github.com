@@ -32,10 +32,10 @@
   border-radius: 100px;
   line-height: 0.5;
   max-width: 200px;
-}
 
-@media only screen and (min-width: 48rem) {
-  .avatar { display: none }
+  @media only screen and (min-width: 48rem) {
+    display: none;
+  }
 }
 
 /**
@@ -47,50 +47,36 @@
 .title {
   font-size: 1.5rem;
   text-align: center;
-}
 
-@media only screen and (min-width : 30rem) {
-  .title {
+  @media only screen and (min-width : 30rem) {
     font-size: 2rem;
     text-align: center;
   }
-}
-@media only screen and (min-width: 48rem) {
-  .title {
+  @media only screen and (min-width: 48rem) {
     font-size: 3rem;
     text-align: left;
   }
-}
-@media only screen and (min-width: 60rem) {
-  .title {
+  @media only screen and (min-width: 60rem) {
     font-size: 4.8rem;
     text-align: left;
   }
-}
-@media only screen and (min-width: 80rem) {
-  .title {
+  @media only screen and (min-width: 80rem) {
     font-size: 6rem;
     text-align: left;
   }
-}
-@media only screen and (min-width: 100rem) {
-  .title {
+  @media only screen and (min-width: 100rem) {
     font-size: 8rem;
     text-align: left;
   }
-}
-@media only screen and (min-width: 120rem) {
-  .title {
+  @media only screen and (min-width: 120rem) {
     font-size: 10rem;
     text-align: left;
   }
-}
-@media only screen and (min-width: 150rem) {
-  .title {
+  @media only screen and (min-width: 150rem) {
     font-size: 12rem;
     text-align: left;
   }
-}
+} /* title */
 
 /**
  *
@@ -100,14 +86,16 @@
 
 .description {
   font-size: 1rem;
-}
 
-@media only screen and (min-width: 48rem) {
-  .description { font-size: 1.5rem }
-}
-@media only screen and (min-width: 100rem) {
-  .description { font-size: 2rem }
-}
+  @media only screen and (min-width: 48rem) {
+    font-size: 1.5rem;
+  }
+
+  @media only screen and (min-width: 100rem) {
+    font-size: 2rem;
+  }
+} /* description */
+
 /**
  *
  * Icons for the socials
@@ -138,10 +126,10 @@
 
 .bonus {
   line-height: 0.5;
-}
 
-@media only screen and (min-width: 48rem) {
-  .bonus { display: none }
+  @media only screen and (min-width: 48rem) {
+    display: none;
+  }
 }
 
 /**
@@ -150,10 +138,8 @@
 .photography-credit {
   position: absolute;
   bottom: 0;
-}
 
-@media only screen and (min-width: 48rem) {
-  .photography-credit {
+  @media only screen and (min-width: 48rem) {
     position: fixed;
     right: 0;
   }

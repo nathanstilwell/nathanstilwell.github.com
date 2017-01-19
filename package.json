@@ -6,6 +6,9 @@
   "scripts": {
     "start": "bundle exec jekyll serve & gulp"
   },
+  {
+    "test-thing": "nathan wins"
+  },
   "devDependencies": {
     "autoprefixer": "6.1.0",
     "gulp": "3.9.0",

@@ -6,7 +6,7 @@
   "scripts": {
     "start": "bundle exec jekyll serve & gulp"
   },
-  {
+  "test-guy": {
     "test-thing": "nathan wins"
   },
   "devDependencies": {

@@ -4,5 +4,26 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
+    "d": "gatsby develop",
+    "start": "npm run d",
+    "b": "gatsby build",
+    "s": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
+    "deploy": "gatsby build && gh-pages -d public -b master"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "1.10.0",
+    "gatsby": "^2.0.76",
+    "gatsby-plugin-styled-components": "3.0.4",
+    "gatsby-plugin-typography": "2.2.4",
+    "gh-pages": "2.0.1",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-typography": "0.16.18",
+    "styled-components": "4.1.3",
+    "typography": "0.16.18"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

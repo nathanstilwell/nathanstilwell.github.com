@@ -16,12 +16,12 @@ body {
   display: none;
 
   @media only screen and (min-width: 48rem) {
-    background: transparent url(/img/nathan_5.png) no-repeat bottom right;
+    background: transparent url(../../img/nathan_5.png) no-repeat bottom right;
     display: block;
   }
 
   @media only screen and (min-width: 80rem) {
-    background: transparent url(/img/nathan_3.png) no-repeat bottom right;
+    background: transparent url(../../img/nathan_3.png) no-repeat bottom right;
     display: block;
   }
 }

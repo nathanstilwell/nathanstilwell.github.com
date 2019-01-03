@@ -9,7 +9,7 @@
     "b": "gatsby build",
     "s": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && gh-pages -d public -b test-site -m 'Robot Website'"
+    "deploy": "gatsby build && gh-pages -d public -b master -m 'Robot Website'"
   },
   "dependencies": {
     "babel-plugin-styled-components": "1.10.0",

@@ -17,7 +17,7 @@ const Index = () => (
     <Description>
       I'm a software engineer who lives in New York City. I enjoy blending
       open source technologies together into savory web products. I write code for <Link href="https://flow.io/" text="Flow" />. I share my
-      life with my partner and better half, <Link href="https://thenotepasser.com/" text="Elizabeth" />.
+      life with my partner and better half, <Link href="https://elizabethstilwell.com/" text="Elizabeth" />.
     </Description>
 
     <ListSection

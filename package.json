@@ -21,6 +21,7 @@
     "react-dom": "16.8.6",
     "react-typography": "0.16.19",
     "styled-components": "4.3.2",
+    "typescript": "^3.5.3",
     "typography": "0.16.19"
   },
   "bugs": {

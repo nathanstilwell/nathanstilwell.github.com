@@ -7,7 +7,7 @@ const Anchor = styled.a`
 `;
 
 const Link = ({ href, text }) => (
-  <Anchor href={href}>{text}</Anchor>
+  <Anchor target="_blank" href={href}>{text}</Anchor>
 );
 
 export default Link;

@@ -1,10 +1,13 @@
 import React from 'react';
 
-import Header from '../components/Header';
-import Description from '../components/Description';
+import {
+  Header,
+  Description,
+  ListSection,
+  Link
+} from "@nathanstilwell/components";
+
 import Layout from '../components/Layout';
-import ListSection from '../components/ListSection';
-import Link from '../components/Link';
 import Avatar from '../components/Avatar';
 import Bonus from '../components/Bonus';
 

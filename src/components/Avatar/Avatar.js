@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import avatar from './img/nathan_1.jpg';
+import React from "react";
+import styled from "styled-components";
+import avatar from "./img/nathan_1.jpg";
 
 const AvatarFigure = styled.figure`
   line-height: 0.5;

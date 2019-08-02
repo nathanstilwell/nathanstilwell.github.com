@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import image from './img/nathan_2.png';
+import image from "./img/nathan_2.png";
 
 const BonusFigure = styled.figure`
   line-height: 0.5;

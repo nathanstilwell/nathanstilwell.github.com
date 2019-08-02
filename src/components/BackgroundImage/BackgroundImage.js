@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import NathanLarge from './img/nathan_3.png';
-import NathanMedium from './img/nathan_5.png';
+import NathanLarge from "./img/nathan_3.png";
+import NathanMedium from "./img/nathan_5.png";
 
 const Section = styled.section`
   display: none;
@@ -27,8 +27,6 @@ const Section = styled.section`
   }
 `;
 
-const BackgroundImage = ({ children }) => (
-  <Section />
-);
+const BackgroundImage = ({ children }) => <Section />;
 
 export default BackgroundImage;

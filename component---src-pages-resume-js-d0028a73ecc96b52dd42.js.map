@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/resume.js"],"names":["Resume"],"mappings":"0FAAA,2BAQeA,UANA,kBACb,8BACE","file":"component---src-pages-resume-js-d0028a73ecc96b52dd42.js","sourcesContent":["import React from \"react\";\n\nconst Resume = () => (\n  <main>\n    <h1># Nathan Stilwell</h1>\n  </main>\n);\n\nexport default Resume;\n"],"sourceRoot":""}

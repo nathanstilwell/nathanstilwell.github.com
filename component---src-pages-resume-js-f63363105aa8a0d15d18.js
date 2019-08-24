@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{190:function(n,e,t){"use strict";t.r(e);var a=t(0),l=t.n(a);e.default=function(){return l.a.createElement("main",null,l.a.createElement("h1",null,"# Nathan Stilwell"))}}}]);
+//# sourceMappingURL=component---src-pages-resume-js-f63363105aa8a0d15d18.js.map

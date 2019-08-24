@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
-import BackgroundImage from './BackgroundImage';
+import BackgroundImage from "./BackgroundImage";
 
 const Main = styled.main`
-  font-family: 'Inconsolata', sans-serif;
+  font-family: "Inconsolata", sans-serif;
   margin: 2rem auto 0;
   padding: 0;
   position: relative;
